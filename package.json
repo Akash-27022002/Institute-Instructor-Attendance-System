@@ -1,0 +1,30 @@
+{
+  "name": "institute-instructor-attendance-system",
+  "version": "1.0.0",
+  "description": "We want to build a backend system for the institutes that lets them track their instructors’ check in &amp; out throughout the day &amp; view their total working hours on a monthly basis. Build the APIs that (a) store this information into the database &amp; (b) provide an aggregated monthly report",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akash-27022002/Institute-Instructor-Attendance-System.git"
+  },
+  "keywords": [
+    "attandance",
+    "application",
+    "report"
+  ],
+  "author": "Akash Sachan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akash-27022002/Institute-Instructor-Attendance-System/issues"
+  },
+  "homepage": "https://github.com/Akash-27022002/Institute-Instructor-Attendance-System#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.3"
+  }
+}
